@@ -27,7 +27,7 @@ public class WebSteps {
         $("[data-content='Issues']").click();
     }
 
-    @Step("Проверяем что ишью с номером number: {0} называется issueName: {1}")
+    @Step("Проверяем что ишью с номером {0} называется {1}")
     public void checkThatIssueMatchesTheNumber(String number, String issueName) {
         $("#" + number).shouldHave(text(issueName));
     }

@@ -9,6 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
+@DisplayName("Два варианта Allure steps")
 public class AllureWithStepTests extends BaseTest {
 
     private static final String REPOSITORY = "eroshenkoam/allure-example";
